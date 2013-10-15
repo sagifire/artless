@@ -1,0 +1,6 @@
+[submodule "vendors/lessphp"]
+	path = vendors/lessphp
+	url = git@github.com:leafo/lessphp.git
+[submodule "vendors/less.js"]
+	path = vendors/less.js
+	url = git@github.com:less/less.js.git
