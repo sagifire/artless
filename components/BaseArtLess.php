@@ -24,9 +24,9 @@ abstract class BaseArtLess extends CApplicationComponent {
 	
 	public function registerLessFile($lessFile, $media = '') {
 		if (!is_dir($this->defaultCssDir)) 
-			throw new CExeption('Invalid default css dir in artless component!');
+			throw new CException('Invalid default css dir in artless component!');
 		if (!is_file($lessFile))
-			throw new CExeption('Invalid less file: '.$lessFile);
+			throw new CException('Invalid less file: '.$lessFile);
 		
 		$cssFile = $this->defaultCssDir . '/' . basename($lessFile) . '_' . filemtime($lessFile);
 		$this->checkedCompile($lessFile, $cssFile);
