@@ -1,0 +1,16 @@
+{
+  "name": "sagifire/artless",
+  "description": "artless - simple way to compile *.less files via lessphp or less.js+NodeJS",
+  "keywords": ["yii", "less", "css", "style", "template"],
+  "homepage": "https://github.com/sagifire/artless",
+  "authors": [
+    {
+      "name": "Andrew G Chvyl",
+      "email": "achvyl@gmail.coml",
+      "hompage": "http://sagifire.pp.ua"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+  }
+}
