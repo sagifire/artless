@@ -3,6 +3,7 @@
   "description": "artless - simple way to compile *.less files via lessphp or less.js+NodeJS",
   "keywords": ["yii", "less", "css", "style", "template"],
   "homepage": "https://github.com/sagifire/artless",
+  "license" : "Free for all",
   "authors": [
     {
       "name": "Andrew G Chvyl",
